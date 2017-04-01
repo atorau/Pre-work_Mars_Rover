@@ -52,6 +52,8 @@ function move(command) {
     			self.direction = array[3];
     		}
     		if (array[i] == self.direction){
+					self.direction = arra[i--];
+					
     		}
     	}
 
